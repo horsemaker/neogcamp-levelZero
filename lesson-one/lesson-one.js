@@ -385,44 +385,71 @@ for (var i = 0; i < questions.length; i++) {
 // ex14 - end
 
 // ex15 - start
-var readlineSync = require("readline-sync");
+var readlineSync = require('readline-sync')
 
-var score = 0;
-var userName = readlineSync.question("What's your name? ");
+var score = 0
+var userName = readlineSync.question("What's your name? ")
 
-console.log("Welcome " + userName + " to - DO YOU KNOW Yash?");
+console.log('Welcome ' + userName + ' to - DO YOU KNOW Yash?')
+
+// data of high score
+var highScores = [
+  {
+    name: 'Yash',
+    score: 2,
+  },
+  {
+    name: "Yash's Mom",
+    score: 2,
+  },
+]
 
 // play function
 function play(question, answer) {
-  var userAnswer = readlineSync.question(question);
+  var userAnswer = readlineSync.question(question)
 
-  if (userAnswer === answer) {
-    console.log("right!");
-    score = score + 1;
+  if (userAnswer.toUpperCase() === answer.toUpperCase()) {
+    console.log('right!')
+    score = score + 1
   } else {
-    console.log("wrong!");
+    console.log('wrong!')
   }
 
-  console.log("current score: ", score);
-  console.log("-----------------")
+  console.log('current score: ', score)
+  console.log('-----------------')
 }
 
 // array of objects
 var questions = [
   {
-  question: "Where do I live? ",
-  answer: "Mumbai",
+    question: 'Where do I live? ',
+    answer: 'Mumbai',
   },
   {
-  question: "Which is my favorite series? ",
-  answer: "Silicon Valley",
+    question: 'Which is my favorite series? ',
+    answer: 'Silicon Valley',
   },
 ]
 
 // loop
 for (var i = 0; i < questions.length; i++) {
-  play(questions[i].question, questions[i].answer);
+  play(questions[i].question, questions[i].answer)
 }
 
-console.log("YAY! You SCORED: ", score);
+console.log('YAY! You SCORED: ', score)
+console.log('-------------------')
+
+console.log('Check out the high scorers - ')
+for (var i = 0; i < highScores.length; i++) {
+  console.log(highScores[i].name + ': ' + highScores[i].score)
+}
+console.log('-------------------')
+
+console.log(
+  'If you have scored better than the current high scorers then send me a screenshot of your score, so that I can add you to the high scorers list.'
+)
+console.log('Thank you for playing!')
 // ex15 - end
+
+// assignment + bonus homeworks - start
+// assignment + bonus homeworks - end
