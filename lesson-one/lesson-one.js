@@ -245,14 +245,184 @@ printArray(groceryList)
 // ex11 - end
 
 // ex12 - start
+var superman = {
+  name: 'superman',
+  power: 'flight',
+  costumeColor: 'blue',
+  strength: 10000,
+  stealth: 0,
+  intelligence: 100,
+}
 
+var batman = {
+  name: 'batman',
+  power: 'martial arts',
+  costumeColor: 'black',
+  strength: 100,
+  stealth: 100,
+  intelligence: 1000,
+}
+
+console.log(superman.strength)
+console.log(batman.strength)
+console.log(superman.strength > batman.strength)
+
+// challenge 1
+
+// print superman's stealth
+console.log("Superman's stealth: " + superman.stealth)
+// print batman's stealth
+console.log("Batman's stealth: " + batman.stealth)
+// compare who would win on stealth
+if (superman.stealth > batman.stealth) {
+  console.log('Superman will win on stealth.')
+} else {
+  console.log('Batman will win on stealth.')
+}
+
+// challenge 2
+
+// array of superheroes containing an object for each superhero
+superheroes = [
+  {
+    name: 'superman',
+    power: 'flight',
+    costumeColor: 'blue',
+    strength: 10000,
+    stealth: 0,
+    intelligence: 100,
+  },
+  {
+    name: 'batman',
+    power: 'martial arts',
+    costumeColor: 'black',
+    strength: 1000,
+    stealth: 100,
+    intelligence: 1000,
+  },
+  {
+    name: 'flash',
+    power: 'speed',
+    costumeColor: 'red',
+    strength: 500,
+    stealth: 400,
+  },
+  {
+    name: 'wonder woman',
+    power: 'god',
+    costumeColor: 'dark red',
+    strength: 10000,
+    stealth: 0,
+  },
+]
+
+console.log('----------')
+
+// printing name & costume of every superhero in the array
+function printAtrributes(superhero) {
+  console.log("Superhero's Name: " + superhero.name)
+  console.log(superhero.name + "'s Costume Color: " + superhero.costumeColor)
+  console.log('-------------------')
+}
+
+for (var i = 0; i < superheroes.length; i++) {
+  printAtrributes(superheroes[i])
+}
 // ex12 - end
 
 // ex13 - start
+var questions = [
+  {
+    question: 'Where do I live? ',
+    answer: 'Mumbai',
+  },
+  {
+    question: 'Which is my favorite series? ',
+    answer: 'Silicon Valley',
+  },
+]
 // ex13 - end
 
 // ex14 - start
+var readlineSync = require('readline-sync')
+
+var score = 0
+var userName = readlineSync.question("What's your name? ")
+
+console.log('Welcome ' + userName + ' to - DO YOU KNOW Yash?')
+
+// play function
+function play(question, answer) {
+  var userAnswer = readlineSync.question(question)
+
+  if (userAnswer === answer) {
+    console.log('right!')
+    score = score + 1
+  } else {
+    console.log('wrong!')
+  }
+
+  console.log('current score: ', score)
+  console.log('-----------------')
+}
+
+// array of objects
+var questions = [
+  {
+    question: 'Where do I live? ',
+    answer: 'Mumbai',
+  },
+  {
+    question: 'Which is my favorite series? ',
+    answer: 'Silicon Valley',
+  },
+]
+
+// loop
+for (var i = 0; i < questions.length; i++) {
+  play(questions[i].question, questions[i].answer)
+}
 // ex14 - end
 
 // ex15 - start
+var readlineSync = require("readline-sync");
+
+var score = 0;
+var userName = readlineSync.question("What's your name? ");
+
+console.log("Welcome " + userName + " to - DO YOU KNOW Yash?");
+
+// play function
+function play(question, answer) {
+  var userAnswer = readlineSync.question(question);
+
+  if (userAnswer === answer) {
+    console.log("right!");
+    score = score + 1;
+  } else {
+    console.log("wrong!");
+  }
+
+  console.log("current score: ", score);
+  console.log("-----------------")
+}
+
+// array of objects
+var questions = [
+  {
+  question: "Where do I live? ",
+  answer: "Mumbai",
+  },
+  {
+  question: "Which is my favorite series? ",
+  answer: "Silicon Valley",
+  },
+]
+
+// loop
+for (var i = 0; i < questions.length; i++) {
+  play(questions[i].question, questions[i].answer);
+}
+
+console.log("YAY! You SCORED: ", score);
 // ex15 - end
