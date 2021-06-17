@@ -115,10 +115,67 @@ product(6, 7)
 // ex07 - end
 
 // ex08 - start
+var readlineSync = require('readline-sync')
 
+var score = 0
+
+function play(question, answer) {
+  var userAnswer = readlineSync.question(question)
+
+  if (userAnswer === answer) {
+    console.log('You were right!')
+    score = score + 1
+  } else {
+    console.log('You were wrong!')
+    score = score - 1
+  }
+}
+
+// calling the function
+play('Where do I live? ', 'Mumbai')
+play('Which is my favorite series? ', 'Silicon Valley')
+
+console.log('Your SCORE is: ', score)
 // ex08 - end
 
+// improved ex06 - start
+var readlineSync = require('readline-sync')
+
+var score = 0
+
+// question 1
+var questionOne = 'Am I older than 18? '
+var answerOne = 'yes'
+
+// question 2
+var questionTwo = 'Are you a boy? '
+var answerTwo = 'yes'
+
+function play(question, answer) {
+  // input
+  var userAnswer = readlineSync.question(question)
+  console.log('You entered ' + userAnswer)
+
+  // processing
+  if (userAnswer === answer) {
+    // output
+    console.log('You are right!')
+    score = score + 1
+    console.log('Score is: ' + score)
+  } else {
+    // output
+    console.log('You are wrong!')
+    score = score - 1
+    console.log('Score is: ' + score)
+  }
+}
+
+play(questionOne, answerOne)
+play(questionTwo, answerTwo)
+// improved ex06 - end
+
 // ex09 - start
+
 // ex09 - end
 
 // homework - start
