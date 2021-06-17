@@ -211,14 +211,48 @@ for (var i = number; i >= 1; i--) {
 // bonus - end
 
 // ex10 - start
-var groceryList = ["milk", "eggs", "butter", "bread", "jam"];
+var groceryList = ['milk', 'eggs', 'butter', 'bread', 'jam']
 
-console.log(groceryList[0]);
-console.log(groceryList[2]);
-console.log(groceryList[4]);
+console.log(groceryList[0])
+console.log(groceryList[2])
+console.log(groceryList[4])
 
 // how to print last item of the array
 var howLongIsThisArray = groceryList.length
 console.log(howLongIsThisArray)
 console.log(groceryList[groceryList.length - 1])
 // ex10 - end
+
+// ex11 - start
+var groceryList = [
+  'milk',
+  'eggs',
+  'butter',
+  'bread',
+  'jam',
+  'salt',
+  'biscuits',
+  'wafers',
+]
+
+function printArray(array) {
+  for (var i = 0; i < array.length; i++) {
+    console.log(array[i])
+  }
+}
+
+printArray(groceryList)
+// ex11 - end
+
+// ex12 - start
+
+// ex12 - end
+
+// ex13 - start
+// ex13 - end
+
+// ex14 - start
+// ex14 - end
+
+// ex15 - start
+// ex15 - end
