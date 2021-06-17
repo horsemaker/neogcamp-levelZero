@@ -175,7 +175,13 @@ play(questionTwo, answerTwo)
 // improved ex06 - end
 
 // ex09 - start
+for (var i = 0; i < 5; i = i + 1) {
+  console.log('Yash Ghodekar')
+}
 
+for (var i = 0; i <= 10; i = i + 1) {
+  console.log(22 + i)
+}
 // ex09 - end
 
 // homework - start
