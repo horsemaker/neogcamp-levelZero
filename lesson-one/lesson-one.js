@@ -185,7 +185,40 @@ for (var i = 0; i <= 10; i = i + 1) {
 // ex09 - end
 
 // homework - start
+var readlineSync = require('readline-sync')
+var number = readlineSync.question('Enter Number: ')
+
+for (var i = 1; i <= number; i++) {
+  var str = ''
+  for (var j = 1; j <= i; j++) {
+    str = str + '*'
+  }
+  console.log(str)
+}
 // homework - end
 
+// bonus - start
+var readlineSync = require('readline-sync')
+var number = readlineSync.question('Enter Number: ')
+
+for (var i = number; i >= 1; i--) {
+  var str = ''
+  for (var j = 1; j <= i; j++) {
+    str = str + '*'
+  }
+  console.log(str)
+}
+// bonus - end
+
 // ex10 - start
+var groceryList = ["milk", "eggs", "butter", "bread", "jam"];
+
+console.log(groceryList[0]);
+console.log(groceryList[2]);
+console.log(groceryList[4]);
+
+// how to print last item of the array
+var howLongIsThisArray = groceryList.length
+console.log(howLongIsThisArray)
+console.log(groceryList[groceryList.length - 1])
 // ex10 - end
