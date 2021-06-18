@@ -779,7 +779,7 @@ Feel free to try this out by clicking https://replit.com/@horsemaker/end-game?em
 
 ---
 
-After doing some changes, the final `DO YOU KNOW Yash?` quiz looks like - 
+After doing some improvements, the final `DO YOU KNOW Yash?` quiz looks like - 
 
 ```javascript
 var readlineSync = require('readline-sync')
