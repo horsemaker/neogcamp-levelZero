@@ -1,3 +1,5 @@
+# lesson-one
+
 ## what's CLI?
 
 Well! If you are from a non programming backgroud, there are chances you have never interacted with a CLI app. Those are pretty obsolete now from the end user scene. But programmers use them all the time.
@@ -369,7 +371,7 @@ Solution:
 
 ```javascript
 for (var i = 0; i < 5; i = i + 1) {
-  console.log("Vedant Lahane");
+  console.log("Yash Ghodekar");
 }
 
 //extra
@@ -773,6 +775,6 @@ for (var i = 0; i < questions.length; i++) {
 console.log("YAY! You SCORED: ", score);
 ```
 
-Feel free to try this out by clicking https://replit.com/@VedantLahane/End-Game?embed=1&output=1
+Feel free to try this out by clicking https://replit.com/@horsemaker/end-game?embed=1&output=1
 
 ---
