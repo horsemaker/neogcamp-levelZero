@@ -10,13 +10,14 @@ Think of it as texting with a program instead of you know the usual clicking of 
 
 ---
 
-## ex01: output your name
+# ex01: output your name
 
-challenge
+## challenge
 
 Write a program to console your name on the output.
 
-understand
+## understand
+
 That it's a thing to show output.
 
 The thing you just logged is called a string. It's one type of data that your language understands.
@@ -29,9 +30,9 @@ console.log("Your Name);
 
 ---
 
-## ex02: read the name of your user
+# ex02: read the name of your user
 
-challenge
+## challenge
 
 A program to read input from your user. Output this name. Use readlineSync() for this.
 
@@ -40,7 +41,9 @@ import it in your index.js
 know how to read docs and use it. In programming, it is extremely important to read docs.
 use a variable to store this name.
 output this name.
-understand
+
+## understand
+
 readlineSync() is a package. In programming, you can use code written by others via this system.
 
 People share their code out in the open to help others. Using this we write bigger programs. This is called standing on the shoulder of giants. Think of this as someone discovered fire and wheel and now we don't have to rediscover it every other generation.
@@ -50,24 +53,24 @@ Concept of variable: Think of it as keeping a placeholder in your room. Now in t
 Solution:
 
 ```javascript
-prompt('Give me your name') //Browser
+prompt("Give me your name"); //Browser
 
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var userName = readlineSync.question('May I have your name?')
+var userName = readlineSync.question("May I have your name?");
 
-console.log(userName)
+console.log(userName);
 ```
 
 ---
 
-## ex03: welcome your user
+# ex03: welcome your user
 
-challenge
+## challenge
 
 A program to take a string. And add "Welcome" to it. Then console it.
 
-understand
+## understand
 
 - manipulating a string,
 - using + to concatenate
@@ -75,70 +78,70 @@ understand
 Solution:
 
 ```javascript
-var welcomeMessage = 'Welcome' + userName // string concatenation
+var welcomeMessage = "Welcome" + userName; // string concatenation
 
-console.log(welcomeMessage)
+console.log(welcomeMessage);
 ```
 
 ---
 
-## ex04: do it all together
+# ex04: do it all together
 
-challenge
+## challenge
 
 A program to take your user's name. Then welcome them.
 
-understand
+## understand
 
 - that programming is nothing but `Input >> Proccessing >> Output`
 
 Solution:
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var userName = readlineSync.question('May I have your name?')
+var userName = readlineSync.question("May I have your name?");
 
-var welcomeMessage = 'Welcome' + userName // string concatenation
+var welcomeMessage = "Welcome" + userName; // string concatenation
 
-console.log(welcomeMessage)
+console.log(welcomeMessage);
 ```
 
 ---
 
-## ex05: print right/wrong if greater than 25
+# ex05: print right/wrong if greater than 25
 
-challenge
+## challenge
 
 Ask your user if your age is greater than 25 (or any number) and console right/wrong based on the answer.
 
-understand
+## understand
 
 - branching of code, i.e. only one branch runs based on a `CONDITION`
 
 Solution:
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 // input
-var userAnswerAge = readlineSync.question('Am I older than 25? ')
-console.log('You entered ' + userAnswerAge)
+var userAnswerAge = readlineSync.question("Am I older than 25? ");
+console.log("You entered " + userAnswerAge);
 
 // processing
-if (userAnswerAge === 'yes') {
+if (userAnswerAge === "yes") {
   // output
-  console.log('You are wrong!')
+  console.log("You are wrong!");
 } else {
   // output
-  console.log('You are right!')
+  console.log("You are right!");
 }
 ```
 
 ---
 
-## ex06: increment score if the right answer
+# ex06: increment score if the right answer
 
-challenge
+## challenge
 
 Ask your user if your hometown is Bokaro (or your city) and this time increment a variable based on the right answer.
 
@@ -147,58 +150,58 @@ Also, console the score this time.
 Solution:
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var score = 0
+var score = 0;
 
 // question 1
-var questionOne = 'Am I older than 18? '
-var answerOne = 'yes'
+var questionOne = "Am I older than 18? ";
+var answerOne = "yes";
 
 // input
-var userAnswerAge = readlineSync.question(questionOne)
-console.log('You entered ' + userAnswerAge)
+var userAnswerAge = readlineSync.question(questionOne);
+console.log("You entered " + userAnswerAge);
 
 // processing
 if (userAnswerAge === answerOne) {
   // output
-  console.log('You are right!')
-  score = score + 1
-  console.log('Score is: ' + score)
+  console.log("You are right!");
+  score = score + 1;
+  console.log("Score is: " + score);
 } else {
   // output
-  console.log('You are wrong!')
-  score = score - 1
-  console.log('Score is: ' + score)
+  console.log("You are wrong!");
+  score = score - 1;
+  console.log("Score is: " + score);
 }
 
 // question 2
-var questionTwo = 'Are you a boy? '
-var answerTwo = 'yes'
+var questionTwo = "Are you a boy? ";
+var answerTwo = "yes";
 
 // input
-var userAnswerGender = readlineSync.question(questionTwo)
-console.log('You entered ' + userAnswerGender)
+var userAnswerGender = readlineSync.question(questionTwo);
+console.log("You entered " + userAnswerGender);
 
 // processing
 if (userAnswerAge === answerTwo) {
   // output
-  console.log('You are right!')
-  score = score + 1
-  console.log('Score is: ' + score)
+  console.log("You are right!");
+  score = score + 1;
+  console.log("Score is: " + score);
 } else {
   // output
-  console.log('You are wrong!')
-  score = score - 1
-  console.log('Score is: ' + score)
+  console.log("You are wrong!");
+  score = score - 1;
+  console.log("Score is: " + score);
 }
 ```
 
 ---
 
-## ex07: function to add two numbers
+# ex07: function to add two numbers
 
-challenge
+## challenge
 
 Take two numbers and add them. Put this entire thing in a function add() and return the result
 
@@ -207,11 +210,11 @@ syntax
 ```javascript
 function functionName(parameterOne, parameterTwo) {
   // processing
-  return outputValue
+  return outputValue;
 }
 ```
 
-understand
+## understand
 
 - a function is a repeating piece of the PROCESSING while INPUT and OUTPUT changes
 
@@ -227,41 +230,41 @@ Solution:
 
 // function to add two numbers
 function add(numberOne, numberTwo) {
-  console.log('numberOne: ', numberOne)
-  console.log('numberTwo: ', numberTwo)
-  var sum = numberOne + numberTwo
-  console.log('The sum of ' + numberOne + ' and ' + numberTwo + ' is : ' + sum)
+  console.log("numberOne: ", numberOne);
+  console.log("numberTwo: ", numberTwo);
+  var sum = numberOne + numberTwo;
+  console.log("The sum of " + numberOne + " and " + numberTwo + " is : " + sum);
 }
 
 // use the function
-add(2, 5)
+add(2, 5);
 
 // function to find product of two numbers
 function product(numberOne, numberTwo) {
-  console.log('numberOne: ', numberOne)
-  console.log('numberTwo: ', numberTwo)
-  var product = numberOne * numberTwo
+  console.log("numberOne: ", numberOne);
+  console.log("numberTwo: ", numberTwo);
+  var product = numberOne * numberTwo;
   console.log(
-    'The product of ' + numberOne + ' and ' + numberTwo + ' is : ' + product
-  )
+    "The product of " + numberOne + " and " + numberTwo + " is : " + product
+  );
 }
 
 // use the function
-product(6, 7)
+product(6, 7);
 ```
 
 ---
 
-## ex08: function to check the answer
+# ex08: function to check the answer
 
-challenge
+## challenge
 
 - Your function should take a question and the right answer.
 - Ask your user to answer the question.
 - check the answer and increment score (global variable)
 - tell your user whether the answer was correct or not
 
-understand
+## understand
 
 - A function can do multiple things
 - sometimes, the output can be a change in the global variable
@@ -279,27 +282,27 @@ To do this we need to understand a few things.
 Solution:
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var score = 0
+var score = 0;
 
 function play(question, answer) {
-  var userAnswer = readlineSync.question(question)
+  var userAnswer = readlineSync.question(question);
 
   if (userAnswer === answer) {
-    console.log('You were right!')
-    score = score + 1
+    console.log("You were right!");
+    score = score + 1;
   } else {
-    console.log('You were wrong!')
-    score = score - 1
+    console.log("You were wrong!");
+    score = score - 1;
   }
 }
 
 // calling the function
-play('Where do I live? ', 'Mumbai')
-play('Which is my favorite series? ', 'Silicon Valley')
+play("Where do I live? ", "Mumbai");
+play("Which is my favorite series? ", "Silicon Valley");
 
-console.log('Your SCORE is: ', score)
+console.log("Your SCORE is: ", score);
 ```
 
 ---
@@ -309,46 +312,46 @@ Then we go back to `exp06` to improvise our code(Extracting it out as a function
 Improved `ex06` looks like this
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var score = 0
+var score = 0;
 
 // question 1
-var questionOne = 'Am I older than 18? '
-var answerOne = 'yes'
+var questionOne = "Am I older than 18? ";
+var answerOne = "yes";
 
 // question 2
-var questionTwo = 'Are you a boy? '
-var answerTwo = 'yes'
+var questionTwo = "Are you a boy? ";
+var answerTwo = "yes";
 
 function play(question, answer) {
   // input
-  var userAnswer = readlineSync.question(question)
-  console.log('You entered ' + userAnswer)
+  var userAnswer = readlineSync.question(question);
+  console.log("You entered " + userAnswer);
 
   // processing
   if (userAnswer === answer) {
     // output
-    console.log('You are right!')
-    score = score + 1
-    console.log('Score is: ' + score)
+    console.log("You are right!");
+    score = score + 1;
+    console.log("Score is: " + score);
   } else {
     // output
-    console.log('You are wrong!')
-    score = score - 1
-    console.log('Score is: ' + score)
+    console.log("You are wrong!");
+    score = score - 1;
+    console.log("Score is: " + score);
   }
 }
 
-play(questionOne, answerOne)
-play(questionTwo, answerTwo)
+play(questionOne, answerOne);
+play(questionTwo, answerTwo);
 ```
 
 ---
 
-## ex09: print your name 5 times
+# ex09: print your name 5 times
 
-exercise
+## exercise
 
 - print your name 5 times by calling console.log()
 - use for loop to do this
@@ -362,7 +365,7 @@ for (intial CONDITION; exit CONDITION; change CONDITION) {
 }
 ```
 
-understanding
+## understanding
 
 - anatomy of for loop
 - calling a function from the loop is running the mini-program multiple times
@@ -371,12 +374,12 @@ Solution:
 
 ```javascript
 for (var i = 0; i < 5; i = i + 1) {
-  console.log('Yash Ghodekar')
+  console.log("Yash Ghodekar");
 }
 
 //extra
 for (var i = 0; i <= 10; i = i + 1) {
-  console.log(22 + i)
+  console.log(22 + i);
 }
 ```
 
@@ -384,7 +387,7 @@ for (var i = 0; i <= 10; i = i + 1) {
 
 # homework: star pattern
 
-challenge
+## challenge
 
 a program to take input number from user and print stars like this. The below pattern will be printed when the user enters 5.
 
@@ -400,11 +403,11 @@ Solution:
 
 ```javascript
 for (var i = 1; i <= number; i++) {
-  var str = ''
+  var str = "";
   for (var j = 1; j <= i; j++) {
-    str = str + '*'
+    str = str + "*";
   }
-  console.log(str)
+  console.log(str);
 }
 ```
 
@@ -414,15 +417,15 @@ Solution:
 
 ```javascript
 for (var i = number; i >= 1; i--) {
-  var str = ''
+  var str = "";
   for (var j = 1; j <= i; j++) {
-    str = str + '*'
+    str = str + "*";
   }
-  console.log(str)
+  console.log(str);
 }
 ```
 
-understanding
+## understanding
 
 - double loop: HINT
 - struggling to form programs when you don't know-how
@@ -430,9 +433,9 @@ understanding
 
 ---
 
-## ex10: list grocery items to buy
+# ex10: list grocery items to buy
 
-challenge
+## challenge
 
 - prepare a list of grocery items to buy.
 - add 5 items
@@ -446,7 +449,7 @@ challenge
 var arrayName = [valueOne, valueTwo, valueThree];
 ```
 
-understanding
+## understanding
 
 - what is a data structure? It's just a way of organizing data in a particular way. In the case of an array, data is arranged sequentially and thus can be accessed using index numbers.
 
@@ -459,25 +462,25 @@ understanding
 Solution:
 
 ```javascript
-var groceryList = ['milk', 'eggs', 'butter', 'bread', 'jam']
+var groceryList = ["milk", "eggs", "butter", "bread", "jam"];
 
-console.log(groceryList[0])
-console.log(groceryList[2])
-console.log(groceryList[4])
+console.log(groceryList[0]);
+console.log(groceryList[2]);
+console.log(groceryList[4]);
 
 // how to print last item of the array
-var howLongIsThisArray = groceryList.length
-console.log(howLongIsThisArray)
-console.log(groceryList[groceryList.length - 1])
+var howLongIsThisArray = groceryList.length;
+console.log(howLongIsThisArray);
+console.log(groceryList[groceryList.length - 1]);
 ```
 
 ---
 
-## ex11: print every item on the list
+# ex11: print every item on the list
 
 Take the list you made in the last exercise. Now, use a for loop to print every item.
 
-understanding
+## understanding
 
 - using the loop variable i.e. `i` to access the index
 - using length property to terminate the loop
@@ -487,30 +490,30 @@ Solution:
 
 ```javascript
 var groceryList = [
-  'milk',
-  'eggs',
-  'butter',
-  'bread',
-  'jam',
-  'salt',
-  'biscuits',
-  'wafers',
-]
+  "milk",
+  "eggs",
+  "butter",
+  "bread",
+  "jam",
+  "salt",
+  "biscuits",
+  "wafers",
+];
 
 function printArray(array) {
   for (var i = 0; i < array.length; i++) {
-    console.log(array[i])
+    console.log(array[i]);
   }
 }
 
-printArray(groceryList)
+printArray(groceryList);
 ```
 
 ---
 
-## ex12: club info about a superhero together
+# ex12: club info about a superhero together
 
-exercise
+## exercise
 
 Create two objects and put information about two superheros: superman and batman. Get familiarity with the syntax. Read and understand what's written in understanding section.
 
@@ -523,7 +526,7 @@ Create two objects and put information about two superheros: superman and batman
 } // notice the closing bracket
 ```
 
-understanding
+## understanding
 
 - how objects work
 - the fact that objects mimic real life objects in programming and thus group properties of one object in one. Think of defining a car in programming language, what would be the properties of a car?
@@ -537,38 +540,38 @@ Solution:
 
 ```javascript
 var superman = {
-  name: 'superman',
-  power: 'flight',
-  costumeColor: 'blue',
+  name: "superman",
+  power: "flight",
+  costumeColor: "blue",
   strength: 10000,
   stealth: 0,
   intelligence: 100,
-}
+};
 
 var batman = {
-  name: 'batman',
-  power: 'martial arts',
-  costumeColor: 'black',
+  name: "batman",
+  power: "martial arts",
+  costumeColor: "black",
   strength: 100,
   stealth: 100,
   intelligence: 1000,
-}
+};
 
-console.log(superman.strength)
-console.log(batman.strength)
-console.log(superman.strength > batman.strength)
+console.log(superman.strength);
+console.log(batman.strength);
+console.log(superman.strength > batman.strength);
 
 // challenge 1
 
 // print superman's stealth
-console.log("Superman's stealth: " + superman.stealth)
+console.log("Superman's stealth: " + superman.stealth);
 // print batman's stealth
-console.log("Batman's stealth: " + batman.stealth)
+console.log("Batman's stealth: " + batman.stealth);
 // compare who would win on stealth
 if (superman.stealth > batman.stealth) {
-  console.log('Superman will win on stealth.')
+  console.log("Superman will win on stealth.");
 } else {
-  console.log('Batman will win on stealth.')
+  console.log("Batman will win on stealth.");
 }
 
 // challenge 2
@@ -578,54 +581,54 @@ if (superman.stealth > batman.stealth) {
 // array of superheroes containing an object for each superhero
 superheroes = [
   {
-    name: 'superman',
-    power: 'flight',
-    costumeColor: 'blue',
+    name: "superman",
+    power: "flight",
+    costumeColor: "blue",
     strength: 10000,
     stealth: 0,
     intelligence: 100,
   },
   {
-    name: 'batman',
-    power: 'martial arts',
-    costumeColor: 'black',
+    name: "batman",
+    power: "martial arts",
+    costumeColor: "black",
     strength: 1000,
     stealth: 100,
     intelligence: 1000,
   },
   {
-    name: 'flash',
-    power: 'speed',
-    costumeColor: 'red',
+    name: "flash",
+    power: "speed",
+    costumeColor: "red",
     strength: 500,
     stealth: 400,
   },
   {
-    name: 'wonder woman',
-    power: 'god',
-    costumeColor: 'dark red',
+    name: "wonder woman",
+    power: "god",
+    costumeColor: "dark red",
     strength: 10000,
     stealth: 0,
   },
-]
+];
 
-console.log('----------')
+console.log("----------");
 
 // printing name & costume of every superhero in the array
 function printAtrributes(superhero) {
-  console.log("Superhero's Name: " + superhero.name)
-  console.log(superhero.name + "'s Costume Color: " + superhero.costumeColor)
-  console.log('-------------------')
+  console.log("Superhero's Name: " + superhero.name);
+  console.log(superhero.name + "'s Costume Color: " + superhero.costumeColor);
+  console.log("-------------------");
 }
 
 for (var i = 0; i < superheroes.length; i++) {
-  printAtrributes(superheroes[i])
+  printAtrributes(superheroes[i]);
 }
 ```
 
 ---
 
-## ex13: put a list of questions together
+# ex13: put a list of questions together
 
 ```javascript
 // hint: there's an error in these objects
@@ -646,26 +649,26 @@ Solution:
 ```javascript
 var questions = [
   {
-    question: 'Where do I live? ',
-    answer: 'Mumbai',
+    question: "Where do I live? ",
+    answer: "Mumbai",
   },
   {
-    question: 'Which is my favorite series? ',
-    answer: 'Silicon Valley',
+    question: "Which is my favorite series? ",
+    answer: "Silicon Valley",
   },
-]
+];
 ```
 
 ---
 
-## ex14: club everything to make the game
+# ex14: club everything to make the game
 
-challenge
+## challenge
 
 - use question list
 - and function to put together a quiz
 
-understand
+# understand
 
 - all programs are made up of mini functions and data structures
 - learning to break a program into parts and then sewing them together is the real learning
@@ -673,57 +676,57 @@ understand
 Solution:
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var score = 0
-var userName = readlineSync.question("What's your name? ")
+var score = 0;
+var userName = readlineSync.question("What's your name? ");
 
-console.log('Welcome ' + userName + ' to - DO YOU KNOW Yash?')
+console.log("Welcome " + userName + " to - DO YOU KNOW Yash?");
 
 // play function
 function play(question, answer) {
-  var userAnswer = readlineSync.question(question)
+  var userAnswer = readlineSync.question(question);
 
   if (userAnswer === answer) {
-    console.log('right!')
-    score = score + 1
+    console.log("right!");
+    score = score + 1;
   } else {
-    console.log('wrong!')
+    console.log("wrong!");
   }
 
-  console.log('current score: ', score)
-  console.log('-----------------')
+  console.log("current score: ", score);
+  console.log("-----------------");
 }
 
 // array of objects
 var questions = [
   {
-    question: 'Where do I live? ',
-    answer: 'Mumbai',
+    question: "Where do I live? ",
+    answer: "Mumbai",
   },
   {
-    question: 'Which is my favorite series? ',
-    answer: 'Silicon Valley',
+    question: "Which is my favorite series? ",
+    answer: "Silicon Valley",
   },
-]
+];
 
 // loop
 for (var i = 0; i < questions.length; i++) {
-  play(questions[i].question, questions[i].answer)
+  play(questions[i].question, questions[i].answer);
 }
 ```
 
 ---
 
-## ex15: print the final score to the user
+# ex15: print the final score to the user
 
-challenge
+## challenge
 
 - In your program, create a data structure to hold high scores.
 - Show user his score and high scores.
 - Ask the user to send a screenshot if he has beaten the score.
 
-understanding
+## understanding
 
 - you can use data structures to hold data
 - when you start writing this data structure to files it becomes a database
@@ -732,119 +735,157 @@ understanding
 Solution:
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var score = 0
-var userName = readlineSync.question("What's your name? ")
+var score = 0;
+var userName = readlineSync.question("What's your name? ");
 
-console.log('Welcome ' + userName + ' to - DO YOU KNOW Yash?')
+console.log("Welcome " + userName + " to - DO YOU KNOW Yash?");
 
 // play function
 function play(question, answer) {
-  var userAnswer = readlineSync.question(question)
+  var userAnswer = readlineSync.question(question);
 
   if (userAnswer === answer) {
-    console.log('right!')
-    score = score + 1
+    console.log("right!");
+    score = score + 1;
   } else {
-    console.log('wrong!')
+    console.log("wrong!");
   }
 
-  console.log('current score: ', score)
-  console.log('-----------------')
+  console.log("current score: ", score);
+  console.log("-----------------");
 }
 
 // array of objects
 var questions = [
   {
-    question: 'Where do I live? ',
-    answer: 'Mumbai',
+    question: "Where do I live? ",
+    answer: "Mumbai",
   },
   {
-    question: 'Which is my favorite series? ',
-    answer: 'Silicon Valley',
+    question: "Which is my favorite series? ",
+    answer: "Silicon Valley",
   },
-]
+];
 
 // loop
 for (var i = 0; i < questions.length; i++) {
-  play(questions[i].question, questions[i].answer)
+  play(questions[i].question, questions[i].answer);
 }
 
 //We added the statement below exp14 code
-console.log('YAY! You SCORED: ', score)
+console.log("YAY! You SCORED: ", score);
 ```
 
 Feel free to try this out by clicking https://replit.com/@horsemaker/end-game?embed=1&output=1
 
 ---
 
-After doing some improvements, the final `DO YOU KNOW Yash?` quiz looks like - 
+After doing the required changes, here's the code:
 
 ```javascript
-var readlineSync = require('readline-sync')
+var readlineSync = require("readline-sync");
 
-var score = 0
-var userName = readlineSync.question("What's your name? ")
+var score = 0;
+var userName = readlineSync.question("What's your name? ");
 
-console.log('Welcome ' + userName + ' to - DO YOU KNOW Yash?')
+console.log("Welcome " + userName + " to - DO YOU KNOW Yash?");
 
 // data of high score
 var highScores = [
   {
-    name: 'Yash',
-    score: 2,
+    name: "Yash's Mom",
+    score: 11,
   },
   {
-    name: "Yash's Mom",
-    score: 2,
+    name: "Yash",
+    score: 10,
   },
-]
+  {
+    name: "Vedant",
+    score: 9.5,
+  },
+];
 
 // play function
 function play(question, answer) {
-  var userAnswer = readlineSync.question(question)
+  var userAnswer = readlineSync.question(question);
 
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
-    console.log('right!')
-    score = score + 1
+    console.log("Right! Seems like you really know Yash.");
+    score = score + 1;
   } else {
-    console.log('wrong!')
+    console.log("Oops! the correct answer is " + answer);
+    console.log("And you call yourself my friend?");
   }
 
-  console.log('current score: ', score)
-  console.log('-----------------')
+  console.log("Current Score: ", score);
+  console.log("-----------------");
 }
 
 // array of objects
 var questions = [
   {
-    question: 'Where do I live? ',
-    answer: 'Mumbai',
+    question: "Where do I live? ",
+    answer: "Mumbai",
   },
   {
-    question: 'Which is my favorite series? ',
-    answer: 'Silicon Valley',
+    question: "Which is my favorite series? ",
+    answer: "Silicon Valley",
   },
-]
+  {
+    question: "Who is my oldest friend? ",
+    answer: "Vedant",
+  },
+  {
+    question: "What is my favorite subject? ",
+    answer: "Psychology",
+  },
+  {
+    question: "Which is my favorire cartoon character? ",
+    answer: "Pink Panther",
+  },
+  {
+    question: "MCU or DC? ",
+    answer: "MCU",
+  },
+  {
+    question: "Who is my favorite MCU character? ",
+    answer: "that it's a Trick Question - It's everybody!",
+  },
+  {
+    question: "What is my favorite season? ",
+    answer: "Autumn",
+  },
+  {
+    question: "Which is my favorite drink? ",
+    answer: "जल",
+  },
+  {
+    question: "Here's the last question - Which is my favorite song? ",
+    answer: "Ai Meri Zohrajabeen",
+  },
+];
 
 // loop
 for (var i = 0; i < questions.length; i++) {
-  play(questions[i].question, questions[i].answer)
+  play(questions[i].question, questions[i].answer);
 }
 
-console.log('YAY! You SCORED: ', score)
-console.log('-------------------')
+console.log("YAY! You SCORED: ", score);
+console.log("-------------------");
 
-console.log('Check out the high scorers - ')
+console.log("Check out the high scorers - ");
 for (var i = 0; i < highScores.length; i++) {
-  console.log(highScores[i].name + ': ' + highScores[i].score)
+  console.log(highScores[i].name + ": " + highScores[i].score);
 }
-console.log('-------------------')
+console.log("-------------------");
 
 console.log(
-  'If you have scored better than the current high scorers then send me a screenshot of your score, so that I can add you to the high scorers list.'
-)
-console.log('Thank you for playing!')
+  "If you have scored better than the current high scorers then send me a screenshot of your score, so that I can add you to the high scorers list."
+);
+console.log("Thank you for playing!");
 ```
+
 ---
