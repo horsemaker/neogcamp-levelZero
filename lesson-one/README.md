@@ -784,6 +784,8 @@ Feel free to try this out by clicking https://replit.com/@horsemaker/end-game?em
 
 After doing the required changes, here's the code:
 
+I have put this code into a separate repository, you can visit it here - https://github.com/horsemaker/do-you-know-YASH-quiz
+
 ```javascript
 var readlineSync = require('readline-sync')
 
@@ -891,6 +893,8 @@ console.log('Thank you for playing!')
 ---
 
 ## assignment 1 - Marvel Fandom Quiz
+
+You can visit the repository of this assignment here - https://github.com/horsemaker/marvel-fandom-quiz
 
 ```javascript
 var readlineSync = require('readline-sync')
