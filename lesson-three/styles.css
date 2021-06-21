@@ -63,7 +63,7 @@ hr {
 
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .navigation .link {
@@ -129,8 +129,9 @@ hr {
   padding-inline-start: 0px;
 }
 
-/* .footer .footer-header {
-  font-size: small;
-} */
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
 
 /* 1.41.13 */
