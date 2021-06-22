@@ -9,6 +9,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
+  max-width: 700px;
+  margin: auto;
 }
 
 hr {
@@ -44,6 +46,11 @@ hr {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+}
+
+.link-blog {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* lists */
@@ -93,7 +100,7 @@ hr {
   margin: auto;
 }
 
-.hero .hero-heading {
+.hero-heading {
   padding-top: 1rem;
   color: var(--dark-gray);
   text-align: center;
@@ -125,6 +132,10 @@ hr {
   border-top-right-radius: 1rem;
 }
 
+.footer-projects-blogs {
+  margin-top: 5rem;
+}
+
 .footer .link {
   color: white;
 }
@@ -138,4 +149,20 @@ hr {
   font-size: large;
 }
 
-/* 1.41.13 */
+/* blog */
+
+.blog-hero {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.blog-img {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
