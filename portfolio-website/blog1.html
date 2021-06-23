@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>what is dom? | Yash Ghodekar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">iAmDeveloper</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/blogs.html">blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container container-center">
+      <h1 class="hero-heading">what is dom?</h1>
+      <small>December, 2020</small>
+      <p>
+        So have you wondered what exactly is DOM & what does it do? Since I was
+        facing a similar question, I tried to go more in-depth and learn about
+        DOM. Here I have attempted to summarize what I have learned. I hope it
+        interests you.
+      </p>
+      <img class="blog-hero" src="../images/blog1.1.svg" alt="what is dom?" />
+      <p>
+        The DOM, or the ‘Document Object Model’ is an internal programmatic
+        representation of any web page. Technically DOM is also an API that
+        allows us to add, remove or edit elements.
+      </p>
+      <p>
+        To understand what is DOM exactly we need to understand how an HTML
+        document is transformed into an interactive web page. The path followed
+        here for this transformation is known as the ‘Critical Rendering Path’.
+      </p>
+      <p>
+        The steps in this ‘Critical Rendering Path’ can be mainly divided into
+        two important stages, the first being — determining what to render & the
+        second being — rendering on the browser. An important component is
+        formed between these two stages known as ‘Render Tree’.
+      </p>
+      <img class="blog-img" src="../images/blog1.2.png" alt="what is dom?" />
+      <p>
+        The structure of DOM is represented with what we call ‘node tree’. In
+        this node tree, the `html` element forms the root node, which will have
+        branches containing children nodes of the elements nested within it, and
+        so on. The tree will grow in every branch till it reaches an element
+        that has no other element nested in it.
+      </p>
+      <p>
+        Let us understand this with an example, consider this HTML document:
+      </p>
+      <img class="blog-img" src="../images/blog1.3.png" alt="what is dom?" />
+      <p>
+        This document can be represented in the form of a node tree as follows:
+      </p>
+      <img class="blog-img" src="../images/blog1.4.png" alt="what is dom?" />
+      <p>
+        We need to keep in mind some important points about DOM, they being:
+      </p>
+      <p>
+        1. The DOM forms an interface only for valid HTML documents. But, the
+        browsers help in correcting the invalid HTML code.
+      </p>
+      <p>Consider the following HTML document for example:</p>
+      <img class="blog-img" src="../images/blog1.5.png" alt="what is dom?" />
+      <p>
+        The document is invalid since `head` & `body` element are missing from
+        it, but the DOM tree will be formed as:
+      </p>
+      <img class="blog-img" src="../images/blog1.6.png" alt="what is dom?" />
+      <p>
+        2. The DOM acts as a living resource, it can be manipulated or modified
+        with the help of Javascript. The browser re-renders the DOM whenever any
+        changes take place in the DOM.
+      </p>
+      <p>Consider our HTML document:</p>
+      <img class="blog-img" src="../images/blog1.7.png" alt="what is dom?" />
+      <p>The document is rendered in the browser as:</p>
+      <img class="blog-img" src="../images/blog1.8.png" alt="what is dom?" />
+      <p>
+        Now, we will manipulate the DOM of this HTML document using Javascript.
+        We will add one more paragraph in the document which will read ‘This is
+        paragraph 2’.
+      </p>
+      <p>
+        i.e. adding an `p` element node consisting of a ‘This is paragraph 2’
+        text node in the DOM.
+      </p>
+      <p>The script for DOM manipulation:</p>
+      <img class="blog-img" src="../images/blog1.9.png" alt="what is dom?" />
+      <p>
+        After adding this script to the HTML document, the document will be as
+        follows:
+      </p>
+      <img class="blog-img" src="../images/blog1.10.png" alt="what is dom?" />
+      <p>And the browser output will be as follows:</p>
+      <img class="blog-img" src="../images/blog1.11.png" alt="what is dom?" />
+      <p>3. What we see in the browser is the Render Tree & not DOM.</p>
+      <p>
+        Browser forms its viewport with the help of Render Tree. Render Tree is
+        a combination of both — DOM & CSSOM(CSS Object Model). The difference
+        between Render Tree and DOM is that the Render Tree only consists of
+        what is to be rendered on the screen. It will exclude elements that are
+        visually hidden using CSS.
+      </p>
+      <p>
+        Consider the following HTML document. Here, we have added a style i.e.
+        display: none to the `p` tag:
+      </p>
+      <img class="blog-img" src="../images/blog1.12.png" alt="what is dom?" />
+      <p>
+        Since the `p` tag is a part of the HTML document, it will be included in
+        the DOM tree as follows:
+      </p>
+      <img class="blog-img" src="../images/blog1.13.png" alt="what is dom?" />
+      <p>
+        But, when the Render tree is to be formed, it will consider both, the
+        DOM and the CSSOM and that will result in excluding the
+      </p>
+      <p>
+        tag of our HTML document since it has been styled to not display itself
+        on the browser.
+      </p>
+      <img class="blog-img" src="../images/blog1.14.png" alt="what is dom?" />
+      <p>
+        I hope this blog helped you understand more about DOM. I will write in
+        detail about DOM manipulation in my upcoming blogs.
+      </p>
+      <p>Till then, Happy Coding!</p>
+    </div>
+
+    <footer class="footer footer-projects-blogs">
+      <div class="footer-header">social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/horsemaker">github</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/horsemaker_">twitter</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/yashghodekar/"
+            >linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://yash-ghodekar.medium.com/">medium</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

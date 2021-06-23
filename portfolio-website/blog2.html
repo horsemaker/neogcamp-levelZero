@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>what is dom manipulation? | Yash Ghodekar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">iAmDeveloper</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/blogs.html">blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container container-center">
+      <h1 class="hero-heading">what is dom manipulation?</h1>
+      <small>December, 2020</small>
+      <p>
+        As I had promised in my first blog
+        <a class="link-blog" href="/blog1.html">‘what is dom?’</a> here is a
+        blog on ‘DOM manipulation’. In this blog, we will dive more into DOM &
+        know what is DOM manipulation & how is it done.
+      </p>
+      <img class="blog-hero" src="../images/blog2.1.svg" alt="what is dom?" />
+      <p>
+        DOM manipulation is interacting with the DOM API to change/modify the
+        HTML document that is to be rendered on the web browser. This HTML
+        document can be changed/modified to add elements, remove elements, edit
+        elements, move elements around, etc.
+      </p>
+      <p>
+        By manipulating the DOM you can create applications that will update the
+        data of the page without a refresh, change the layout of a page without
+        a refresh. You can shuffle, move or delete elements across the document.
+      </p>
+      <p>
+        Many languages are used to manipulate the DOM. We will be using
+        Javascript to do so. Consider this HTML document, we will be performing
+        DOM manipulation on it:
+      </p>
+      <img class="blog-img" src="../images/blog2.2.png" alt="what is dom?" />
+      <p>
+        To manipulate an element inside the DOM, you need to first select it and
+        store a reference to it inside a variable. You can do that by using the
+        Query Selectors as follows: (Put this code in the script tag)
+      </p>
+      <img class="blog-img" src="../images/blog2.3.png" alt="what is dom?" />
+      <p>
+        ‘querySelector’ returns a reference to the first match of the selector,
+        whereas ‘querySelectorAll’ returns a node list containing references to
+        all of the matches of the selector.
+      </p>
+      <p>
+        You should note that when using ‘querySelectorAll’ is a node list and
+        not an array. The node list looks like an array, to some extent behaves
+        like an array but all the methods that apply to an array don’t apply to
+        a node list.
+      </p>
+      <p>
+        You can also select the elements using their ‘id’, ‘tag’, or ‘class’.
+        These were the older methods, the latest being querySelector as follows:
+      </p>
+      <img class="blog-img" src="../images/blog2.4.png" alt="what is dom?" />
+      <p>
+        Let’s move forward to creating an element and also put in the DOM
+        through DOM manipulation. Add the following code at the bottom of your
+        existing script (do the same with the other code too):
+      </p>
+      <img class="blog-img" src="../images/blog2.5.png" alt="what is dom?" />
+      <p>
+        We have grabbed our section element with the help of ‘querySelector’. We
+        will now create a paragraph element.
+      </p>
+      <img class="blog-img" src="../images/blog2.6.png" alt="what is dom?" />
+      <p>
+        Here, we have a created new paragraph element i.e. ‘newPara’ using the
+        method ‘createElement()’. We have then also added some text content to
+        our paragraph element by using the property ‘textContent’.
+      </p>
+      <p>
+        You can now append the ‘newPara’ element at the end of our section
+        element using the ‘appendChild()’ method:
+      </p>
+      <img class="blog-img" src="../images/blog2.7.png" alt="what is dom?" />
+      <p>
+        To sum up, this part, let’s add a text node to the new paragraph i.e.
+        ‘newPara’ we added above. We will create the text node using the method
+        ‘document.createTextNode()’ and append it to ‘newPara’ using
+        ‘appendChild’ as follows:
+      </p>
+      <img class="blog-img" src="../images/blog2.8.png" alt="what is dom?" />
+      <p>
+        There will be times when you will want to delete some nodes from the
+        DOM. Well, this can also be done by manipulating DOM.
+      </p>
+      <p>
+        We will now delete the ‘newPara’ node we have just created. This task
+        can be done in two ways:
+      </p>
+      <p>
+        ~> We use the method ‘removeChild()’. To use this method one should know
+        the parent node of the node that is to be deleted. E.g. to delete
+        ‘newPara’:
+      </p>
+      <img class="blog-img" src="../images/blog2.9.png" alt="what is dom?" />
+      <p>
+        ‘sect’ is the parent node of ‘newPara’. Therefore, here we are removing
+        ‘newPara’ by removing the child node of ‘sect’ i.e. ‘newPara’ itself.
+      </p>
+      <p>
+        ~> We use the ‘remove()’ method. The ‘remove()’ is used when we want to
+        delete a node-based only a reference to itself. E.g. to delete
+        ‘newPara’:
+      </p>
+      <img class="blog-img" src="../images/blog2.10.png" alt="what is dom?" />
+      <p>
+        You should note that this ‘remove()’ method is not supported in older
+        browsers, so you’d have to do the following to delete a node:
+      </p>
+      <img class="blog-img" src="../images/blog2.11.png" alt="what is dom?" />
+      <p>
+        Let us now add an event listener to our button element to display a
+        “Hello World!” message when clicked on. We will do this by using the
+        ‘addEventListener()’ method. This method takes in two parameters, the
+        first parameter is the type of event like “click” & the second parameter
+        is the function we want to call when the event occurs. E.g. :
+      </p>
+      <img class="blog-img" src="../images/blog2.12.png" alt="what is dom?" />
+      <p>There is one more way to do this, that being:</p>
+      <img class="blog-img" src="../images/blog2.13.png" alt="what is dom?" />
+      <p>Now, let us move on to manipulating styles by manipulating DOM.</p>
+      <p>
+        We can set properties to directly update elements. We will set some
+        styles to the element ‘newPara’ as follows:
+      </p>
+      <img class="blog-img" src="../images/blog2.14.png" alt="what is dom?" />
+      <p>
+        Reload your web page and you’ll see that the styles have been applied to
+        the paragraph. If you look at that paragraph in your browser’s Page
+        Inspector, you’ll see that these lines are indeed adding inline styles
+        to the document.
+      </p>
+      <img class="blog-img" src="../images/blog2.15.png" alt="what is dom?" />
+      <p>
+        We can also set attributes to our elements in our HTML document by DOM
+        manipulation. Let us set a class attribute for our section element. For
+        this we will use the ‘setAttribute()’ method. This method has two
+        arguments, the attribute you want to set on the element & the value you
+        want to set it to.
+      </p>
+      <img class="blog-img" src="../images/blog2.16.png" alt="what is dom?" />
+      <p>
+        You can check in the Page Inspector of your web browser to verify that
+        the class attribute has been added with the value of ‘container’.
+      </p>
+      <p>
+        Some many methods & properties can be used for DOM manipulation. For a
+        detailed explanation of all these methods & properties, you can visit
+        <a href="https://www.w3schools.com/js/js_htmldom_methods.asp"
+          >w3schools</a
+        >.
+      </p>
+      <p>Will come up with a new blog soon. Till then, Happy Coding!</p>
+    </div>
+
+    <footer class="footer footer-projects-blogs">
+      <div class="footer-header">social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/horsemaker">github</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/horsemaker_">twitter</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/yashghodekar/"
+            >linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://yash-ghodekar.medium.com/">medium</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
