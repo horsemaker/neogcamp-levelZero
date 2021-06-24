@@ -523,3 +523,13 @@ body {
 6. Best CSS resource
    https://css-tricks.com/
 7. https://meyerweb.com/eric/books/css-tdg/
+
+# assignment
+
+## pointFour
+
+Host your portfolio. Put all your projects and twitter, linkedin and other details.
+
+GitHub Repository - https://github.com/horsemaker/portfolio-website
+
+Portfolio Website - https://portfolio-webiste-neogcamp-levelzero.netlify.app/
