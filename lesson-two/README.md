@@ -598,3 +598,13 @@ Solution:
 Check all the above content to know the entire thing.
 
 ---
+
+# assignment for pointThree
+
+1. "do you know YASH?" quiz
+     * GitHub Repository - https://github.com/horsemaker/do-you-know-YASH-quiz
+     * Quiz link - https://replit.com/@horsemaker/end-game?embed=1&output=1
+
+2. marvel fandom quiz
+     * GitHub Repository - https://github.com/horsemaker/marvel-fandom-quiz
+     * Quiz link - https://replit.com/@horsemaker/marvel-fandom-quiz?embed=1&output=1
