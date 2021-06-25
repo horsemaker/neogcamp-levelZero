@@ -1,0 +1,25 @@
+{
+  "name": "marvel-fandom-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horsemaker/marvel-fandom-quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horsemaker/marvel-fandom-quiz/issues"
+  },
+  "homepage": "https://github.com/horsemaker/marvel-fandom-quiz#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "chalk-animation": "^1.6.0",
+    "readline-sync": "^1.4.10"
+  }
+}

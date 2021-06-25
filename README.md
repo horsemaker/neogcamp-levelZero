@@ -66,7 +66,7 @@ Minion Speak. Translate your sentences into Banana language with this web app.
 
 GitHub Repository - https://github.com/horsemaker/banana-talk
 
-Link - 
+Link - https://banana-talk-neogcamp.netlify.app/
 
 ## markSeven
 `third week`

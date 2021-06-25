@@ -71,7 +71,7 @@ Solution:
 
 Solution:
 
-<img src="../images/GitHub_1.png"
+<img src="images/GitHub_1.png"
      alt="Creating a Repository on GitHub Desktop"
      width=350/>
 
@@ -95,7 +95,7 @@ Solution:
 
 Solution:
 
-<img src="../images/GitHub_2.png"
+<img src="images/GitHub_2.png"
      alt="Creating a file in our Repository"
      />
 
@@ -119,7 +119,7 @@ Solution:
 
 Solution:
 
-<img src="../images/GitHub_3.png"
+<img src="images/GitHub_3.png"
      alt="First Commit"
      />
 
@@ -191,15 +191,15 @@ Solution:
 
 Solution:
 
-<img src="../images/GitHub_4.png"
+<img src="images/GitHub_4.png"
      alt="Publish the repository"
      />
 
-<img src="../images/GitHub_5.png"
+<img src="images/GitHub_5.png"
      alt="Publish the repository"
      />
 
-<img src="../images/GitHub_6.png"
+<img src="images/GitHub_6.png"
      alt="Publish the repository"
      />
 
@@ -223,15 +223,15 @@ Solution:
 
 Solution:
 
-<img src="../images/GitHub_7.png"
+<img src="images/GitHub_7.png"
      alt="Publish the repository"
      />
 
-<img src="../images/GitHub_8.png"
+<img src="images/GitHub_8.png"
      alt="Publish the repository"
      />
 
-<img src="../images/GitHub_9.png"
+<img src="images/GitHub_9.png"
      alt="Publish the repository"
      />
 
@@ -278,11 +278,11 @@ PART TWO: SETTING UP NETLIFY
 
 Solution:
 
-<img src="../images/Netlify_1.png"
+<img src="images/Netlify_1.png"
      alt="Publish the repository"
      />
 
-<img src="../images/Netlify_2.png"
+<img src="images/Netlify_2.png"
      alt="Publish the repository"
      />
 
@@ -300,7 +300,7 @@ Solution:
 
 Solution:
 
-<img src="../images/Netlify_3.png"
+<img src="images/Netlify_3.png"
      alt="Publish the repository"
      />
 
@@ -315,11 +315,11 @@ Solution:
 
 Solution:
 
-<img src="../images/Netlify_4.png"
+<img src="images/Netlify_4.png"
      alt="Change Domain name"
      />
 
-<img src="../images/Netlify_5.png"
+<img src="images/Netlify_5.png"
      alt="Change Domain name"
      />
 
@@ -339,27 +339,27 @@ Solution:
 
 Solution:
 
-<img src="../images/Netlify_6.png"
+<img src="images/Netlify_6.png"
      alt="changes"
      />
 
-<img src="../images/Netlify_7.png"
+<img src="images/Netlify_7.png"
      alt="Publish the repository"
      />
 
-<img src="../images/Netlify_8.png"
+<img src="images/Netlify_8.png"
      alt="Publish the repository"
      />
 
-<img src="../images/Netlify_9.png"
+<img src="images/Netlify_9.png"
      alt="Publish the repository"
      />
 
-<img src="../images/Netlify_10.png"
+<img src="images/Netlify_10.png"
      alt="Publish the repository"
      />
 
-<img src="../images/Netlify_11.png"
+<img src="images/Netlify_11.png"
      alt="Publish the repository"
      />
 
@@ -373,7 +373,7 @@ Solution:
 
 Solution:
 
-<img src="../images/Netlify_12.png"
+<img src="images/Netlify_12.png"
      alt="Publish the repository"
      />
 
@@ -445,7 +445,7 @@ PART FOUR: GETTING INTO THE DEV WORKFLOW WITH ALL THE SETUP
 
 Solution:
 
-<img src="../images/branch_1.png"
+<img src="images/branch_1.png"
      alt="Publish the repository"
      />
 
@@ -471,15 +471,15 @@ Solution:
 
 Solution:
 
-<img src="../images/branch_2.png"
+<img src="images/branch_2.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_3.png"
+<img src="images/branch_3.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_4.png"
+<img src="images/branch_4.png"
      alt="Publish the repository"
      />
 
@@ -501,15 +501,15 @@ Solution:
 
 Solution:
 
-<img src="../images/branch_5.png"
+<img src="images/branch_5.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_6.png"
+<img src="images/branch_6.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_7.png"
+<img src="images/branch_7.png"
      alt="Publish the repository"
      />
 
@@ -527,31 +527,31 @@ Solution:
 
 Solution:
 
-<img src="../images/branch_8.png"
+<img src="images/branch_8.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_9.png"
+<img src="images/branch_9.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_10.png"
+<img src="images/branch_10.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_11.png"
+<img src="images/branch_11.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_12.png"
+<img src="images/branch_12.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_13.png"
+<img src="images/branch_13.png"
      alt="Publish the repository"
      />
 
-<img src="../images/branch_14.png"
+<img src="images/branch_14.png"
      alt="Publish the repository"
      />
 
@@ -573,11 +573,11 @@ Solution:
 
 Solution:
 
-<img src="../images/main_1.png"
+<img src="images/main_1.png"
      alt="Publish the repository"
      />
 
-<img src="../images/main_2.png"
+<img src="images/main_2.png"
      alt="Publish the repository"
      />
 
@@ -602,9 +602,10 @@ Check all the above content to know the entire thing.
 # assignment for pointThree
 
 1. "do you know YASH?" quiz
-     * GitHub Repository - https://github.com/horsemaker/do-you-know-YASH-quiz
-     * Quiz link - https://replit.com/@horsemaker/end-game?embed=1&output=1
+
+   - GitHub Repository - https://github.com/horsemaker/do-you-know-YASH-quiz
+   - Quiz link - https://replit.com/@horsemaker/end-game?embed=1&output=1
 
 2. marvel fandom quiz
-     * GitHub Repository - https://github.com/horsemaker/marvel-fandom-quiz
-     * Quiz link - https://replit.com/@horsemaker/marvel-fandom-quiz?embed=1&output=1
+   - GitHub Repository - https://github.com/horsemaker/marvel-fandom-quiz
+   - Quiz link - https://replit.com/@horsemaker/marvel-fandom-quiz?embed=1&output=1
