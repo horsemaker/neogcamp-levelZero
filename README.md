@@ -75,7 +75,7 @@ Fun translation app Yoda or Klingon or any other fun translation app.
 
 `ASSIGNMENT` This should be the task given as assignment in lesson four of levelZero
 
-GitHub Repository - 
+GitHub Repository - https://github.com/horsemaker/what-would-shakespeare-sayeth
 
-Link - 
+Link - https://what-would-shakespeare-sayeth.netlify.app/
 
