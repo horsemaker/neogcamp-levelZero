@@ -541,7 +541,7 @@ Website Link - https://banana-talk-neogcamp.netlify.app/
 
 GitHub Repository - https://github.com/horsemaker/what-would-shakespeare-sayeth
 
-Website Link - 
+Website Link - https://what-would-shakespeare-sayeth.netlify.app/
 
 ### Takeaway:
 
