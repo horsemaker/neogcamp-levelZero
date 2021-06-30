@@ -609,11 +609,11 @@ export default function App() {
 
 ---
 # emoji-intrepreter
-GitHub Repository - https://github.com/horsemaker/emoji-intrepreter
+GitHub Repository - https://github.com/horsemaker/emoji-interpreter
 
-CodeSandBox Link - https://codesandbox.io/s/github/horsemaker/emoji-intrepreter
+CodeSandBox Link - https://codesandbox.io/s/github/horsemaker/emoji-interpreter
 
-Project Link - https://ncb30.csb.app/
+Project Link - https://3tq10.csb.app/
 
 ---
 
