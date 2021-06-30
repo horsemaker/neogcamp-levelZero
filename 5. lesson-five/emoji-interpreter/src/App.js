@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>emoji-intrepreter</h1>
+      <h1>emoji-interpreter</h1>
       <input onChange={emojiInputHandler} />
       <h2>{meaning}</h2>
       {/* Actual output set by React using useState */}
