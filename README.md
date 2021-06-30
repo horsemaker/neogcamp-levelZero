@@ -2,7 +2,7 @@
 
 The web dev camp to get you from zero to hero!
 
-# the nine points: 
+# the nine points:
 
 ## markOne
 
@@ -15,6 +15,7 @@ GitHub Repository - https://github.com/horsemaker/do-you-know-YASH-quiz
 Live Quiz Link - https://replit.com/@horsemaker/end-game?embed=1&output=1
 
 ## markTwo
+
 `first week`
 
 Make quiz on anything you're passionate about. Something which is fun to play and you can share within your social circle. Things like a TV Series, sports, movies etc.
@@ -26,6 +27,7 @@ GitHub Repository - https://github.com/horsemaker/marvel-fandom-quiz
 Live Quiz Link - https://replit.com/@horsemaker/marvel-fandom-quiz?embed=1&output=1
 
 ## markThree
+
 `second week`
 
 Your first website. Hosting your first site using Github plus Netlify integration. Your task here would be to put all your projects' source code on Github. Even the one you did on repl in lesson One.
@@ -38,6 +40,7 @@ GitHub Repositories:
 2. [marvel fandom quiz](https://github.com/horsemaker/marvel-fandom-quiz)
 
 ## markFour
+
 `second week`
 
 My portfolio. Putting your portfolio details in site with projects page. This we'll do live.
@@ -49,6 +52,7 @@ GitHub Repository - https://github.com/horsemaker/portfolio-website
 Portfolio Website - https://portfolio-webiste-neogcamp-levelzero.netlify.app/
 
 ## markFive
+
 `second week`
 
 My blog. Adding blog to your portfolio. Even dummy blogs are okay. However, if you have written some blogs your chances increase for getting selected in levelOne.
@@ -58,6 +62,7 @@ My blog. Adding blog to your portfolio. Even dummy blogs are okay. However, if y
 Blogs in my Portfolio - https://portfolio-webiste-neogcamp-levelzero.netlify.app/blogs.html
 
 ## markSix
+
 `third week`
 
 Minion Speak. Translate your sentences into Banana language with this web app.
@@ -69,6 +74,7 @@ GitHub Repository - https://github.com/horsemaker/banana-talk
 Link - https://banana-talk-neogcamp.netlify.app/
 
 ## markSeven
+
 `third week`
 
 Fun translation app Yoda or Klingon or any other fun translation app.
@@ -79,3 +85,26 @@ GitHub Repository - https://github.com/horsemaker/what-would-shakespeare-sayeth
 
 Link - https://what-would-shakespeare-sayeth.netlify.app/
 
+## markEight
+
+`fourth week`
+
+Know your emotions. First ReactJS app. This will interpret emojis. Put an emoji and it will tell what that means. We will make it during live session.
+
+`ASSIGNMENT` This should be similar to the emoji app that we made during lesson five of levelZero
+
+GitHub Repository - https://github.com/horsemaker/emoji-interpreter
+
+Link - https://3tq10.csb.app/
+
+## markNine
+
+`fourth week`
+
+GoodBooks. ReactJS app similar to this book recommendation app of your own genres like food/travel/music.
+
+`ASSIGNMENT` This should be the task given as assignment in lesson five of levelZero
+
+GitHub Repository - 
+
+Link -
