@@ -2,7 +2,7 @@
 
 The web dev camp to get you from zero to hero!
 
-# the nine points:
+# the 15 points:
 
 ## markOne
 
@@ -25,6 +25,18 @@ Make quiz on anything you're passionate about. Something which is fun to play an
 Source Code - https://github.com/horsemaker/marvel-fandom-quiz
 
 Live Quiz Link - https://replit.com/@horsemaker/marvel-fandom-quiz?embed=1&output=1
+
+## bonus
+
+`first week`
+
+leap year
+- Source Code - https://github.com/horsemaker/leap-year-cli
+- Link - https://replit.com/@horsemaker/leap-year-cli?embed=1&output=1
+
+prime number
+- Source Code - https://github.com/horsemaker/prime-number-cli
+- Link - https://replit.com/@horsemaker/prime-number-cli?embed=1&output=1
 
 ## markThree
 
@@ -84,6 +96,16 @@ Fun translation app Yoda or Klingon or any other fun translation app.
 Source Code - https://github.com/horsemaker/what-would-shakespeare-sayeth
 
 Link - https://what-would-shakespeare-sayeth.netlify.app/
+
+## bonus
+
+leap year (vanillaJS)
+- Source Code - https://github.com/horsemaker/leap-year-vanillaJS
+- Link - https://leap-year-vanillajs.netlify.app/
+
+prime number (vanillaJS)
+- Source Code - https://github.com/horsemaker/prime-number-vanillaJS
+- Link - https://prime-numberr.netlify.app/
 
 ## markEight
 
