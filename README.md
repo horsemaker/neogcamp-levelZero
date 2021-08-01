@@ -46,6 +46,8 @@ Your first website. Hosting your first site using Github plus Netlify integratio
 
 `ASSIGNMENT` This should be the task given as assignment in lesson two of levelZero
 
+Website Hosted - https://ghodekaryash.netlify.app/
+
 Source Code:
 
 1. ["do you know Yash" quiz](https://github.com/horsemaker/do-you-know-YASH-quiz)
