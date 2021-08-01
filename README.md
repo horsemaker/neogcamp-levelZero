@@ -63,7 +63,7 @@ My portfolio. Putting your portfolio details in site with projects page. This we
 
 Source Code - https://github.com/horsemaker/portfolio-website
 
-Portfolio Website - https://portfolio-webiste-neogcamp-levelzero.netlify.app/
+Portfolio Website - https://ghodekaryash.netlify.app/
 
 ## markFive
 
