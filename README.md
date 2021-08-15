@@ -83,9 +83,9 @@ Minion Speak. Translate your sentences into Banana language with this web app.
 
 `ASSIGNMENT` This should be the task given as assignment in lesson four of levelZero
 
-Source Code - https://github.com/horsemaker/banana-talk
+Source Code - https://github.com/horsemaker/talk-banana
 
-Link - https://banana-talk-neogcamp.netlify.app/
+Link - https://talk-banana-talk.netlify.app/
 
 ## markSeven
 
