@@ -95,9 +95,9 @@ Fun translation app Yoda or Klingon or any other fun translation app.
 
 `ASSIGNMENT` This should be the task given as assignment in lesson four of levelZero
 
-Source Code - https://github.com/horsemaker/what-would-shakespeare-sayeth
+Source Code - https://github.com/horsemaker/shakespeare-sayeth
 
-Link - https://what-would-shakespeare-sayeth.netlify.app/
+Link - https://shakespeare-sayeth.netlify.app/
 
 ## bonus
 
@@ -119,7 +119,7 @@ Know your emotions. First ReactJS app. This will interpret emojis. Put an emoji 
 
 Source Code - https://github.com/horsemaker/emoji-interpreter
 
-Link - https://3tq10.csb.app/
+Link - https://rit36.csb.app/
 
 ## markNine
 
@@ -131,7 +131,7 @@ GoodBooks. ReactJS app similar to this book recommendation app of your own genre
 
 Source Code - https://github.com/horsemaker/music-catalog
 
-Link - https://v4upk.csb.app/
+Link - https://d8g1c.csb.app/
 
 ## markTen
 
